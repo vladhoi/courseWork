@@ -1,0 +1,48 @@
+.root {
+    -fx-alignment: center ;
+    -fx-text-fill: white;
+    -fx-background-color:linear-gradient(to left, #232526, #414345);
+
+}
+
+#button {
+    -fx-background-color: #232526;
+    -fx-border-color: white;
+    -fx-border-width: 3 3 3 3;
+
+}
+
+#button:hover {
+    -fx-text-fill: #232526;
+    -fx-background-color: white;
+}
+
+#text_area {
+    -fx-font-size: 19pt;
+    text-area-background: white ;
+}
+
+#text_area .content {
+    -fx-background-color: text-area-background ;
+}
+
+#label {
+    -fx-text-fill: white;
+}
+
+#text_area .scroll-pane {
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+#back_button {
+    -fx-background-color: #232526;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2 2 2 2;
+}
+
+#back_button:hover {
+    -fx-text-fill: #232526;
+    -fx-background-color: white;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../design/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondWindowController">
+    <children>
+        <Button id="back_button" layoutX="516.0" layoutY="359.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Go Back" />
+        <TextArea id="text_area" fx:id="textArea" layoutX="40.0" layoutY="14.0" prefHeight="270.0" prefWidth="400.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="60.0" />
+        <Label id="label" alignment="CENTER" layoutX="138.0" layoutY="14.0" prefHeight="34.0" prefWidth="325.0" text="IDs of last three employees:" textAlignment="CENTER">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+    </children>
+</AnchorPane>

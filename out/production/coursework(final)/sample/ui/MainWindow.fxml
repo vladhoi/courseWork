@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../design/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane prefHeight="400.0" prefWidth="600.0" />
+      <Label alignment="CENTER" layoutX="283.0" layoutY="14.0" prefHeight="52.0" prefWidth="500.0" text="Select an option below:" textAlignment="CENTER" textFill="white" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button id="button" fx:id="button" layoutX="50.0" layoutY="100.0" mnemonicParsing="false" onAction="#changeScreenButtonOnePushed" prefHeight="110.0" prefWidth="230.0" text="Information about first five employees" textAlignment="CENTER" textFill="white" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="button" layoutX="320.0" layoutY="100.0" mnemonicParsing="false" onAction="#changeScreenButtonTwoPushed" prefHeight="110.0" prefWidth="230.0" text="IDs of last three employees" textAlignment="CENTER" textFill="white" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="button" layoutX="50.0" layoutY="246.0" mnemonicParsing="false" onAction="#changeScreenButtonThreePushed" prefHeight="110.0" prefWidth="230.0" text="Output the sorted collection" textAlignment="CENTER" textFill="white" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="button" layoutX="320.0" layoutY="246.0" mnemonicParsing="false" onAction="#changeScreenButtonFourPushed" prefHeight="110.0" prefWidth="230.0" text="Reading information from file" textAlignment="CENTER" textFill="white" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
